@@ -1,76 +1,48 @@
-# Height Weight Prediction using Linear Regression
+# Height Prediction using Linear Regression
 
-A Machine Learning project that predicts a person's weight based on their height using Linear Regression.
+A simple machine learning project that predicts height from weight using Linear Regression.
 
-## Overview
+## About
 
-This project demonstrates the complete machine learning workflow:
-- Data Loading
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Feature Scaling
-- Train Test Split
-- Linear Regression Model Training
-- Model Evaluation
-- Prediction on New Data
+This project explores the relationship between weight and height using a regression model. The dataset is analyzed, preprocessed, and used to train a Linear Regression model for prediction.
 
-## Dataset
-
-The dataset contains height and weight information.
-
-Features:
-- Height: Independent variable
-- Weight: Target variable
-
-## Technologies Used
+## Tech Stack
 
 - Python
-- NumPy
 - Pandas
-- Matplotlib
+- NumPy
 - Seaborn
+- Matplotlib
 - Scikit-Learn
 
-## Workflow
+## Project Workflow
 
-1. Import required libraries
-2. Load dataset
-3. Perform exploratory data analysis
-4. Visualize relationship between height and weight
-5. Split dataset into training and testing data
-6. Train Linear Regression model
-7. Evaluate model performance
+- Loaded and explored the dataset
+- Visualized feature relationships
+- Split data into training and testing sets
+- Built a Linear Regression model
+- Evaluated model performance
 
-## Model Used
+## Model
 
-Linear Regression
+Linear Regression was used to find the best fit relationship between weight and height.
 
-Linear Regression finds the best fit line between input and output variables.
+Input:
+- Weight
 
-Formula:
+Output:
+- Predicted Height
 
-y = mx + c
+## Evaluation
 
-where:
-- y = predicted value
-- m = coefficient
-- x = input feature
-- c = intercept
+The model was evaluated using:
 
-## Evaluation Metrics
+- Mean Absolute Error
+- Mean Squared Error
+- R2 Score
 
-Model performance was evaluated using:
+## Future Scope
 
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- R² Score
-
-## Results
-
-The model successfully learned the relationship between height and weight and can predict weight for unseen height values.
-
-## Future Improvements
-
-- Add more features like age and gender
-- Try Polynomial Regression
-- Deploy model using Flask/Streamlit
+- Train with larger datasets
+- Add more input features
+- Experiment with other regression models
